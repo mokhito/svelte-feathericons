@@ -20,7 +20,9 @@ yarn add svelte-feathericons
 ## Usage
 
 ```html
-import Icon from "./Icon.svelte"
+<script>
+  import Icon from "./Icon.svelte"
+</script>
 
 <Icon name="Airplay"/>
 ```
@@ -30,7 +32,9 @@ It is possible to set custom values for the following SVG attributes: class, wid
 For example:
 
 ```html
-import Icon from "./Icon.svelte"
+<script>
+  import Icon from "./Icon.svelte"
+</script>
 
 <Icon name="Plus" width="16" height="16" stroke="blue"/>
 ```
