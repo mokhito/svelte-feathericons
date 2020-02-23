@@ -1,0 +1,36 @@
+{
+  "name": "svelte-feathericons",
+  "version": "1.0.0",
+  "description": "Icon component for Svelte using Feathericons.",
+  "main": "index.js",
+  "author": "mokhito",
+  "license": "MIT",
+  "files": [
+    "components",
+    "index.js",
+    "LICENSE",
+    "package.json",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mokhito/mithril-feathericons.git"
+  },
+  "keywords": [
+    "feather-icons",
+    "icons",
+    "svelte"
+  ],
+  "bugs": {
+    "url": "https://github.com/mokhito/mithril-feathericons/issues"
+  },
+  "homepage": "https://github.com/mokhito/mithril-feathericons#readme",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "devDependencies": {
+    "adm-zip": "^0.4.13",
+    "request": "^2.88.0",
+    "rimraf": "^3.0.1"
+  }
+}
