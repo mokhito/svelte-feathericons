@@ -1,6 +1,6 @@
 # svelte-feathericons
 
-Customizable [Svelte] components of [Feather icons].
+Customizable [Svelte] component using [Feather icons].
 
 [Feather icons]: https://feathericons.com
 [Svelte]: https://svelte.dev
@@ -19,7 +19,7 @@ yarn add svelte-feathericons
 
 ## Usage
 
-```javascript
+```html
 import Icon from "./Icon.svelte"
 
 <Icon name="Airplay"/>
@@ -29,7 +29,7 @@ It is possible to set custom values for the following SVG attributes: class, wid
 
 For example:
 
-```javascript
+```html
 import Icon from "./Icon.svelte"
 
 <Icon name="Plus" width="16" height="16" stroke="blue"/>
