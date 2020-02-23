@@ -21,7 +21,7 @@ yarn add svelte-feathericons
 
 ```html
 <script>
-  import Icon from "svelte-feathericons"
+  import Icon from "svelte-feathericons/Icon.svelte"
 </script>
 
 <Icon name="Airplay"/>
@@ -33,7 +33,7 @@ For example:
 
 ```html
 <script>
-  import Icon from "svelte-feathericons"
+  import Icon from "svelte-feathericons/Icon.svelte"
 </script>
 
 <Icon name="Plus" width="16" height="16" stroke="blue"/>
