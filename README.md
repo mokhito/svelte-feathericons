@@ -1,4 +1,4 @@
-# mithril-feathericons
+# svelte-feathericons
 
 Customizable [Svelte] components of [Feather icons].
 
